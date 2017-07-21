@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+@font-face{
+ font-family: "NanumGothic"; 
+ src: url("../font/NanumGothic.eot"); /* IE9 Compat Modes */    
+ src: url("../font/NanumGothic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */        
+ url("../font/NanumGothic.woff") format("woff"), /* Modern Browsers */        
+ url("../font/NanumGothic.ttf")  format("truetype"), /* Safari, Android, iOS */        
+ url("../font/NanumGothic.svg#svgMothnnaFont") format("svg"); /* Legacy iOS */
+}
+
+body{
+	
+}
+
+section {
+	width: 100%;
+	font-family:NanumGothic,’나눔고딕’,ng,sans-serif;
+	height: auto;
+	min-height: 1200px;
+	margin: 0px auto;
+	margin-top: -30px;
+	margin-right: 0%;
+	padding-bottom: 100px;
+	background-color: #f1f1f1;
+	float: none;
+	/* background-image: url("../img/section/flower2.png");
+	background-size: cover; */
+}
+.go {
+   cursor: pointer;
+}
+
+.titleBox{
+	background-color: #f1f1f1;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	vertical-align: bottom;
+	color: rgb(44,65,98);
+}
+
+.position {
+	width: 1000px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+#myScrollspy {
+	width: 220px;
+}
+
+.bBar{
+	background-color: rgb(234,249,254);
+	line-height: 60px;
+	height: 60px;
+}
+.wBar{
+	background-color: white;
+	height: 100px;
+	line-height: 100px;
+}
+
+.noBMargin{
+	margin-bottom: 0px;
+}
+
+.noTMargin{
+	margin-top: 0px;
+}
+
+.rightside {
+	margin-right: 10%;
+}
+
+.locationName {
+	padding-left: 5%;
+}
+/* div.col-sm-9 div {
+	height: 250px;
+	font-size: 28px;
+} */
+
+
+/* aside */
+aside {
+	width: 0%;
+	height: auto;
+	min-height: 1200px;
+	margin-top: -30px;
+	margin-left: 0%;
+	background-color: #f1f1f1;
+	float: left;
+}
+
+nav.col-sm-3 {
+	margin-left: 4%;
+	margin-top: 170px;
+	position: absolute;
+}
+
+ul.nav-pills {
+	width: 100%;
+	margin: 0px;
+	top: 20%;
+	background-color:  rgb(44,65,98);
+	
+	border-radius: 3px;
+}
+
+ul.nav-pills a{
+	color:white;
+}
+
+ul.nav-pills a:hover{
+	color: rgb(44,65,98);
+}
+
+/* aside */

@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+section {
+	margin-left: 5%;
+	margin-top: -200px;
+	width: 95%;
+	height: 3500px;
+	background-image: url("/Semi_Project_1/resources/img/tInfo_background/storyPattern.png");
+	z-index: 9;
+}

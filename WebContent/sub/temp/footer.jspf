@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<footer>
+	<div class="footer_top_wrap">
+		<div class="footer_top">
+			<a href="${pageContext.request.contextPath}/-SUB/company.jsp"><span class="footer_button">회사소개</span></a>
+			<a href="${pageContext.request.contextPath}/-SUB/provision.jsp"><span class="footer_button">여행약관</span></a>
+			<a href="${pageContext.request.contextPath}/-SUB/service.jsp"><span class="footer_button">서비스약관</span></a>
+		</div>
+	</div>
+	
+	<div class="footer_mid">
+		<p>㈜어라운드 무비 │ 공동대표 : 김유진, 진혜경, 이어진 │ 서울본사 : 서울특별시 강남구 테헤란로14길 6 남도빌딩 2F R 강의장 </p>
+		<p>사업자등록번호 : none │ 통신판매업신고번호 : none │ 관광사업등록증번호 : none</p>
+		<p>대표전화 : 서울 070-1234-5678 </p>
+		<p>부득이한 사정에 의해 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.</p><br>
+		<p>Copyright(c) ~~~.COM All Rights Reserved.</p>
+	</div>
+
+	<%-- <div class="footer_bot">
+		<img alt="KH정보교육원" src="<%=application.getContextPath()%>/resources/img/kh.jpg">
+	</div> --%>
+
+</footer>

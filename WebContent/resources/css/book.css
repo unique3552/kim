@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+section {
+	margin: 0;
+	margin-top: -95px;
+	width: 100%;
+}
+h3{
+	margin: 0px;
+}
+.position {
+	width: 1000px;
+}
+
+.noBMargin{
+	margin-top: 95px;
+	margin-bottom: 0px;
+}
+.noTMargin{
+	margin-top: 0%;
+}
+.formInfo{
+	background-color: white;
+	border-radius: 3px;
+	padding: 10px;
+}
+.titleBox{
+	background-color: #f1f1f1;
+	padding: 10px;
+	border-radius: 3px;
+}

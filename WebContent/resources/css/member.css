@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+table.list{
+	width: 700px;
+	margin: 20px auto;
+	margin-left: 2%;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 20px 10px 20px;
+}
+
+th {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+}
+
+.info {
+	width: 200px;
+}
+
+.data {
+	width: 200px;
+	text-align: left;
+}
+
+.show {
+	font-size: 0.8em;
+}
+
+h5 {
+	font-family: Arial Black;	
+}
+
+tr.top {
+	font-weight: bold;
+	color: white;
+	background-color: rgb(44,65,98);
+}
